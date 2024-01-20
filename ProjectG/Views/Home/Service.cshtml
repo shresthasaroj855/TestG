@@ -1,0 +1,77 @@
+﻿
+
+<link rel="stylesheet" href="~/css/service.css">
+
+<header>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><h1>GYM</h1></a>
+    <p>Open 24 Hours</p>
+</header>
+<div class="container">
+    <div class="flex-container">
+        <div class="flex-item">
+            <img class="image" src="/images/24+hours.jpg" alt="24 Hours">
+            <div class="heading">Open 24hrs</div>
+        </div>
+        <div class="flex-item">
+            <img class="image" src="/images/22000.png" alt="22000 square feet">
+            <div class="heading">Space of 22,000 square feet!</div>
+        </div>
+        <div class="flex-item">
+            <img class="image" src="/images/equipment.jpg" alt="Top of the line equipment">
+            <div class="heading">Top of the line equipment</div>
+        </div>
+
+
+
+
+        <div class="flex-item">
+            <img class="image" src="/images/sled+push.jpg" alt="Functional Training Area">
+            <div class="heading">Functional Training Area</div>
+        </div>
+        <div class="flex-item">
+            <img class="image" src="/images/yoga.jpg" alt="Yoga Classes">
+            <div class="heading">Yoga Classes</div>
+        </div>
+
+        <div class="flex-item">
+            <img class="image" src="/images/box+jump.jpg" alt="Plyometric Boxes">
+            <div class="heading">Plyometric Boxes</div>
+        </div>
+        <div class="flex-item">
+            <img class="image" src="/images/jump+rope.jpg" alt="Aerobics classes">
+            <div class="heading">Aerobics classes</div>
+        </div>
+        <div class="flex-item">
+            <img class="image" src="/images/Womens+only+studio.png" alt="Women's Only Studio">
+            <div class="heading">Women's Only Studio</div>
+        </div>
+        <div class="flex-item">
+            <img class="image" src="/images/personal+training.jpg" alt="Personal Training">
+            <div class="heading">Personal Training</div>
+        </div>
+    </div>
+
+</div>
+<!----------js for toggle menu------------->
+
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+
+    }
+
+
+
+</script>
+
+
+
